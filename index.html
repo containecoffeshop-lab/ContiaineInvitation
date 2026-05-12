@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Containé Voucher</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <div class="background"></div>
+
+  <!-- CONFETTI -->
+  <div id="confetti-container"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <img src="assets/logo.png" alt="Containe Logo" class="logo">
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="glass-card celebration-card">
+
+      <!-- TEXT BEFORE CLICK -->
+      <p class="instruction-text" id="instructionText">
+        Klik Voucher Received untuk mendapatkan
+        <span>Disc. 50%</span>
+        All Variants
+      </p>
+
+      <!-- BUTTON -->
+      <button class="voucher-btn" id="voucherBtn">
+        VOUCHER RECEIVED
+      </button>
+
+      <!-- HIDDEN CONTENT -->
+      <div class="content-hidden" id="contentArea">
+
+        <h1>
+          Congratulations!
+        </h1>
+
+        <p class="success-text">
+          Kode ekslusif voucher mu sudah didapatkan,
+          tunjukkan kode ini kepada cashier kami untuk claim!
+        </p>
+
+        <div class="voucher-code">
+          CTN1309
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location-section">
+
+    <div class="glass-card location-card">
+
+      <h2>Visit Our Store</h2>
+
+      <p class="address">
+        HPXH+G9W, Jl. Kapten M. Jamil Lubis,
+        Bandar Selamat, Kec. Medan Tembung,
+        Kota Medan, Sumatera Utara
+      </p>
+
+      <p class="scan-text">
+        Scan barcode ini untuk mendapatkan
+        rute tujuan lokasi kami
+      </p>
+
+      <img src="assets/qr.png" alt="QR Code" class="qr-code">
+
+      <a
+        href="https://www.google.com/maps/place/Containe+Coffe+Shop/@3.5988784,98.7258714,17z/data=!3m1!4b1!4m6!3m5!1s0x3031310005cf03c7:0x898fdaea5ff663bf!8m2!3d3.598873!4d98.7284463!16s%2Fg%2F11z0jkyjzw?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        class="map-button"
+      >
+        Dapatkan Rute ke Lokasi
+      </a>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
